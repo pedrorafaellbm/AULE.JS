@@ -58,19 +58,57 @@
 
 
 
-let número = Number(prompt("Digite se o número é par ou impar:"));
-let resultado = número % 2 === 0 ? "Par" : "Ímpar";
+// let número = Number(prompt("Digite se o número é par ou impar:"));
+// let resultado = número % 2 === 0 ? "Par" : "Ímpar";
 
-alert(`O número ${número} é ${resultado}.`)
+// alert(`O número ${número} é ${resultado}.`)
 
-let número1 =Number(prompt("Digite um número"))
+// let número1 =Number(prompt("Digite um número"))
 
-let resultado1;
+// let resultado1;
 
-if (número1 % 2 ===0) {
-    resultado1 = "par";
-} else {
-    resultado1 = "Ímpar"
+// if (número1 % 2 ===0) {
+//     resultado1 = "par";
+// } else {
+//     resultado1 = "Ímpar"
+// }
+
+// alert (` O número ${número1} é ${resultado1}`)
+
+
+
+
+// let cor = 'vermelho';
+
+// switch (cor) {
+//     case 'vermelho':
+//         console.log('pare!');
+//     case 'amarelo':
+//         console.log('atenção!')
+//         break;
+//     case 'verde':
+//         console.log('Pode passar!');
+//         break;
+//     defaut:
+//         console.log('Cor inválida!');
+//         break;
+// }
+
+
+
+
+let cor = prompt("Digite a cor do semáforo (vermelho, amarelo ou verde):").toLowerCase();
+
+switch (cor) {
+    case 'vermelho':
+        alert('pare!');
+    case 'amarelo':
+        alert('atenção!')
+        break;
+    case 'verde':
+        alert('Pode passar!');
+        break;
+    defaut:
+        alert('Cor inválida!');
+        break;
 }
-
-alert (` O número ${número1} é ${resultado1}`)
